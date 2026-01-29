@@ -34,7 +34,7 @@ export default function AuthPage() {
     setSuccess('');
 
     try {
-      const url = isLogin ? 'https://sih-final-demo.onrender.com/login' : 'https://sih-final-demo.onrender.com/login';
+      const url = isLogin ? 'https://sih-final-demo.onrender.com/login' : 'https://sih-final-demo.onrender.com/register';
       const payload = isLogin 
         ? { username: formData.username, password: formData.password }
         : formData;
